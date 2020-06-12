@@ -1,0 +1,15 @@
+site_name: Box
+repo_url: https://github.com/cdgriffith/Box
+theme:
+    name: material
+    palette:
+        primary: purple
+        accent: pink
+    font:
+        text: Ubuntu
+markdown_extensions:
+  - codehilite:
+      linenums: True
+plugins:
+    - search
+    - awesome-pages
