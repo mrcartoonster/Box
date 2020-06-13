@@ -32,9 +32,10 @@ nav:
   - History: history.md
   - License: license.md
 markdown_extensions:
+  - toc:
+      permalink: true
   - codehilite:
       linenums: True
   - admonition
 plugins:
     - search
-    - awesome-pages
