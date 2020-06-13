@@ -43,4 +43,5 @@ command `dir(Box())`.
  |from\_toml\*   |Classmethod, Create a Box object from a TOML file or string (all Box parameters can be passed)
  |merge\_update  |Recursively merge dictionaries or Boxes together instead of replacing
 
-\* Do not work with `BoxList`, only `Box`
+!!! Warning
+    Does not work with `BoxList`! Works only with `Box` object.

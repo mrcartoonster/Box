@@ -224,6 +224,14 @@ mkdocs = ">=1"
 
 [[package]]
 category = "dev"
+description = "A clean responsive theme for the MkDocs static documentation site generator"
+name = "mkdocs-cinder"
+optional = false
+python-versions = "*"
+version = "1.0.4"
+
+[[package]]
+category = "dev"
 description = "Default theme for GitBook for Mkdocs"
 name = "mkdocs-gitbook"
 optional = false
@@ -431,7 +439,7 @@ python-versions = "*"
 version = "0.2.4"
 
 [metadata]
-content-hash = "1c5ed1a5a865575d9da954dda02737327b8a6069431a2533ade0d96afed4ec1b"
+content-hash = "8dd4155b3652eed8e193d33ecd7e72948c39607ccfde0452f781b68494243796"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -535,6 +543,10 @@ mkdocs = [
 mkdocs-awesome-pages-plugin = [
     {file = "mkdocs-awesome-pages-plugin-2.2.1.tar.gz", hash = "sha256:64964a9e14ca356d17e226f124b9157666c0de4407991fbbc4d4091527032dc1"},
     {file = "mkdocs_awesome_pages_plugin-2.2.1-py3-none-any.whl", hash = "sha256:45fb7d3d45f01cec5ad06f5dc0fd07e00359dc23d28f3a2c94e502c4ed631694"},
+]
+mkdocs-cinder = [
+    {file = "mkdocs-cinder-1.0.4.tar.gz", hash = "sha256:dc4875da927fbb523331d85f9d5b9069c08bcbd9f5a9548a6674e0fd46d32c56"},
+    {file = "mkdocs_cinder-1.0.4-py3-none-any.whl", hash = "sha256:96be3730c7b76e8880e3a5c7991661a2900868644e5d3d76802a5843a434aa79"},
 ]
 mkdocs-gitbook = [
     {file = "mkdocs-gitbook-0.0.1.tar.gz", hash = "sha256:c094f9d77e47d54379a0d3816097b56511e760fedb23dcf89bc925f6ac4e75f3"},

@@ -17,6 +17,7 @@ pygments = "^2.6.1"
 pymdown-extensions = "^7.1"
 mkdocs-gitbook = "^0.0.1"
 mkdocs-material = "^5.2.3"
+mkdocs-cinder = "^1.0.4"
 
 [build-system]
 requires = ["poetry>=0.12"]

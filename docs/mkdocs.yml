@@ -1,15 +1,40 @@
 site_name: Box
-repo_url: https://github.com/cdgriffith/Box
+site_description: Python dictionaries with advanced dot notation access
 theme:
     name: material
+    icon:
+      repo: fontawesome/brands/github-alt
+    logo: img/box_logo.png
+    favicon: img/favicon.ico
     palette:
-        primary: purple
-        accent: pink
+        primary: black
+        accent: grey
     font:
         text: Ubuntu
+repo_url: https://github.com/cdgriffith/Box
+nav:
+  - Home: 'index.md'
+  - "User's Guide":
+    -  'user-guide/overview.md'
+    -  'user-guide/boxes.md'
+    -  'user-guide/limitations.md'
+    -  'user-guide/conversion_box.md'
+    -  'user-guide/frozen_box.md'
+    -  'user-guide/default_box.md'
+    -  'user-guide/camel_killer_box.md'
+    -  'user-guide/box_recast_values.md'
+    -  'user-guide/box_intact_types.md'
+    -  'user-guide/box_dots.md'
+    -  'user-guide/BoxList.md'
+    -  'user-guide/SBox.md'
+    -  'user-guide/ConfigBox.md'
+  - Thoughts: thoughts.md
+  - History: history.md
+  - License: license.md
 markdown_extensions:
   - codehilite:
       linenums: True
+  - admonition
 plugins:
     - search
     - awesome-pages
