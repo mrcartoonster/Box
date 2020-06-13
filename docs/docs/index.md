@@ -29,7 +29,7 @@ movie_box.Robin_Hood_Men_in_Tights.stars[0].name
 ```
 Box will automatically make otherwise inaccessible keys ("Robin Hood:
 Men in Tights") safe to access as an attribute. You can always pass
-`conversion\_box=False` to `Box` to disable that
+`conversion_box=False` to `Box` to disable that
 behavior.
 
 Also, all new dict and lists added to a Box or BoxList object are

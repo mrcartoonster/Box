@@ -10,7 +10,8 @@ theme:
         primary: black
         accent: grey
     font:
-        text: Ubuntu
+        text: Source Sans Pro
+        code: Source Code Pro
 repo_url: https://github.com/cdgriffith/Box
 nav:
   - Home: 'index.md'

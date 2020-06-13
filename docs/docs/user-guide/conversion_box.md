@@ -40,9 +40,8 @@ bx.x321_Is_a_terrible_Key
 These keys are not stored anywhere, and trying to modify them as an
 attribute will actually modify the underlying regular key\'s value.
 
-**Warning: duplicate attributes possible**
-
-If you have two keys that evaluate to the same attribute, such as
-"a!b" and "a?b" would become ab, there is no way to
-discern between them, only reference or update them via standard
-dictionary modification.
+!!! warning 
+    Duplicate attributes possible.
+    If you have two keys that evaluate to the same attribute, such as
+    "a!b" and "a?b" would become ab, there is no way to
+    discern between them, only reference or update them via standard dictionary modification.

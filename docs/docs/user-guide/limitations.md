@@ -1,8 +1,8 @@
 `Box` is a subclass of `dict` and as such,
 certain keys cannot be accessed via dot notation. This is because names
 such as `keys` and `pop` have already been
-declared as methods, so `Box` cannot use it's special sauce
-to overwrite them. However it is still possible to have items with those
+declared as methods, so `Box` cannot use its special sauce
+to overwrite them. However, it is still possible to have items with those
 names in the `Box` and access them like a normal dictionary,
 such as `my_box.['keys']`.
 
